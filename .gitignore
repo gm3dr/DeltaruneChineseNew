@@ -1,0 +1,12 @@
+**/node_modules
+**/data.win
+**/game.ios
+**/dump
+src/obj
+src/bin
+/temp
+/*.7z
+/*.tar.gz
+/*.zip
+/data_win
+secrets.bat
