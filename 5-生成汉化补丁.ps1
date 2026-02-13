@@ -145,13 +145,13 @@ foreach ($p in $Platforms) {
 
     if ($p -eq "linux") {
         tar `
-            -czf "【$p-$date】三角符文汉化补丁.tar.gz" `
+            -czf "【${p}一键安装-$date】三角符文汉化补丁.tar.gz" `
             -C $PlatformDir .
     }
 
     if ($p -eq "win") {
         & $SevenZip a -t7z -mx=9 -ms=on -mmt=on `
-            "【$p-$date】三角符文汉化补丁.7z" `
+            "【${p}10+一键安装-$date】三角符文汉化补丁（普通玩家下这个）.7z" `
             ".\$PlatformDir\*"
     }
 }
